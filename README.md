@@ -1,14 +1,18 @@
 # balena-picase
-Using the Retroflag NESPI Case+ with balenaOS.
+Using the Retroflag NESPI Case+ with balenaOS. 
+Adding the ability of soft shutdown to balenaOS and the NESPI CASE+ on the Raspberry Pi
 
 # Install:
 
 ## Overlay:
 Log into your device:
+
 ```bash
 balena ssh <applicationOrDevice>
 ```
-Install overlay:
+
+Install the overlay:
+
 ```bash
 wget -O  "https://raw.githubusercontent.com/ykelle/balena-picase/master/dependencies.sh" | bash
 ```
@@ -31,8 +35,8 @@ or download this repo, navigate into the folder and run
 ```bash
 balena push <applicationOrDevice>
 ```
-
+--------------------
 # Further details:
 This project uses files from the [Retroflag-Repo](https://github.com/RetroFlag/retroflag-picase).
-Instead of running the python script directly on the raspberry pi, the script will run in a docker container.
+The python script will run in a docker container and not directly on the Raspberry Pi.
 Instead of using system calls in the script, we are interacting with the [balena Supervisor](https://www.balena.io/docs/reference/supervisor/supervisor-api/#examples-3). 
