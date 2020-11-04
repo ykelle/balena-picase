@@ -8,7 +8,7 @@ wget -O  "/mnt/boot/overlays/RetroFlag_pw_io.dtbo" "$SourcePath/RetroFlag_pw_io.
 #Reboot to apply changes----------------------------
 echo "RetroFlag Pi Case installation done. Will now reboot after 3 seconds."
 sleep 3
-sudo reboot
+reboot
 #-----------------------------------------------------------
 
 

@@ -14,7 +14,7 @@ balena ssh <applicationOrDevice>
 Install the overlay:
 
 ```bash
-wget -O  "https://raw.githubusercontent.com/ykelle/balena-picase/master/dependencies.sh" | bash
+wget -O - "https://raw.githubusercontent.com/ykelle/balena-picase/main/overlay.sh" | bash
 ```
 
 or 
