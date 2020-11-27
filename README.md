@@ -28,7 +28,7 @@ Reboot your device.
 ## Container:
 Click this to deploy this repository to balenaCloud:
 
-[![](https://balena.io/deploy.png)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/ykelle/balena-picase)
+[![](https://balena.io/deploy.svg)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/ykelle/balena-picase)
 
 or download this repo, navigate into the folder and run
 
